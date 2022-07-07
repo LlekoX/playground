@@ -2,8 +2,8 @@ const searchForm = document.querySelector('form');
 const searchResultDiv = document.querySelector('.search-result');
 const container = document.querySelector('.container');
 let searchQuery = '';
-const APP_ID = '754d886c';
-const APP_key = 'e843ebdfea4413536d8e0086fad440ec';
+const APP_ID = '';
+const APP_key = '';
 //const baseUrl = `https://api.edamam.com/search?q=pizza&app_id=${APP_ID}&app_key=${APP_key}`;
 
 searchForm.addEventListener('submit', (e) => {
